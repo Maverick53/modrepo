@@ -245,7 +245,7 @@
     <source></source>
   </extension>
 </addon>
-<addon id="script.module.ATFmobdro" name="ATF Mobdro" version="1.2" provider-name="Maverick">
+<addon id="script.module.ATFmobdro" name="ATF Mobdro" version="1.6" provider-name="Maverick">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />

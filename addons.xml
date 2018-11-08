@@ -222,7 +222,7 @@
     <website>http://livestreamer.io</website>
   </extension>
 </addon>
-<addon id="script.module.ATFlive" name="[COLOR red]ATF IPTV Extra[/COLOR]" version="1.4" provider-name="Maverick">
+<addon id="script.module.ATFlive" name="[COLOR red]ATF IPTV Extra[/COLOR]" version="1.6" provider-name="Maverick">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />
@@ -233,6 +233,7 @@
     <provides>all</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <summary lang="en_gb">Maverick</summary>
     <description lang="en_gb">Maverick</description>
     <disclaimer lang="en_gb"></disclaimer>

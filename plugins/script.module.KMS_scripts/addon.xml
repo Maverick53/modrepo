@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.KMS_scripts" name="KM Scripts" version="1.0.0" provider-name="Kong Media">
+	<requires>
+		<import addon="xbmc.python" version="2.7.13"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.dateutil" version="2.5.3"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kong Media IPTV Scripts</summary>
+		<description lang="en">Kodi scripts required for Kong Media IPTV service</description>
+		<platform>all</platform>
+	</extension>
+</addon>
